@@ -1,5 +1,5 @@
 # Wake on Wan
-# shortly WoW
+### shortly WoW
 
 I use this script to wake up my home servers remotely from internet. I say servers but it can be used for anything really - desktop computers / laptops.
 
