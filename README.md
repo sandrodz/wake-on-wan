@@ -6,9 +6,7 @@
 
 I use this script to wake up my home servers remotely from internet. I say servers but it can be used for anything really - desktop computers / laptops.
 
-I usually have a subdomain for each of my server like: wol.servername.host.com which hosts the script. Everytime I hit the hostname my server wakes up.
-
-Obviously you shouldn't host this script on the computer you plan to wake up ;) just checking if you are paying attention.
+I usually have a subdomain for each of my servers like: wol.server1.domain.com which hosts the script. Everytime I hit the subdomain target server wakes up. This setup is quite flexible as you can put to sleep your servers and wake them up anytime, from anywhere in the world, with any device that has a browser!
 
 ##### important notes
 1. Target computer should have motherboard that supports wake on lan (magic packets). And it should be enabled, both in BIOS and OS. For ubuntu this is an excellent doc: https://help.ubuntu.com/community/WakeOnLan
