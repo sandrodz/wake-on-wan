@@ -25,10 +25,7 @@
 			$this->hostname = $hostname;
 			$this->mac      = $mac;
 			$this->port     = $port;
-			if (!$ip)
-			{
-				$this->ip   = $this->get_ip_from_hostname();
-			}
+			$this->ip       = $ip ?: $this->get_ip_from_hostname();
 		}
 
 		public function wake_on_wan()
